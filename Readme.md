@@ -21,7 +21,7 @@ Detailed introduction of these datasets can be found in the DevNet paper
 
 ## Categorical Datasets
 
-14 widely-used categorical datasets for anomaly detection are available at the [Categorical data](https://github.com/GuansongPang/anomaly-detection-datasets/tree/main/categorical%20data) folder.
+14 widely-used categorical datasets for anomaly detection are available at the [Categorical data](https://github.com/GuansongPang/anomaly-detection-datasets/tree/main/categorical%20data) folder. The basic statistics of these datasets are shown below. 
 
 Dataset   | Data size | Dimensionality| Anomaly class 
 ------------ |------------ | -------------|------------ 
