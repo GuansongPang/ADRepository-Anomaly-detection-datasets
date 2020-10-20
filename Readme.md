@@ -29,7 +29,7 @@ bank | 41,188 | 10 | yes
 census | 299,285 | 33 | 50K+ 
 AID362 | 4,279 | 114 | active 
 w7a | 49,749 | 300 | yes 
-CMC | 1,473 | 8   | \#child$>$10 
+CMC | 1,473 | 8   | child>10 
 APAS | 12,695 | 64  | train 
 CelebA | 202,599  | 39 | bald 
 Chess | 28,056 | 6 | zero 
