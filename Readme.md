@@ -47,3 +47,5 @@ Detailed introduction of these datasets and some state-of-the-art performance be
 >Pang, G., Cao, L., Chen, L., & Liu, H. (2016, December). Unsupervised feature selection for outlier detection by modelling hierarchical value-feature couplings. In 2016 IEEE 16th International Conference on Data Mining (ICDM) (pp. 410-419). IEEE.
 
 >Pang, G., Cao, L., Chen, L., & Liu, H. (2017). Learning homophily couplings from non-IID data for joint feature selection and noise-resilient outlier detection. In 26th International Joint Conference on Artificial Intelligence, IJCAI 2017 (pp. 2585-2591). International Joint Conferences on Artificial Intelligence.
+
+>Xu, H., Wang, Y., Cheng, L., Wang, Y., & Ma, X. (2018, October). Exploring a high-quality outlying feature value set for noise-resilient outlier detection in categorical data. In Proceedings of the 27th ACM International Conference on Information and Knowledge Management (pp. 17-26).
