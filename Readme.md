@@ -16,7 +16,7 @@ backdoor| 95,329| 196
 campaign| 41,188| 62
 thyroid| 7,200 |21
 
-Detailed introduction of these datasets can be found in the DevNet paper
+Detailed introduction of these datasets and some performance benchmarks can be found in the DevNet paper
 >Pang, G., Shen, C., & van den Hengel, A. (2019, July). Deep anomaly detection with deviation networks. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (pp. 353-362).
 
 ## Categorical Datasets
