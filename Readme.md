@@ -1,6 +1,6 @@
 # Anomaly Detection Datasets
 
-In this respository, we provide a continuously updated collection of popular real-world datasets used for anomaly detection in the literature. Some of the datasets are converted from imbalanced classification datasets, while the others contain real anomalies.
+In this repository, we provide a continuously updated collection of popular real-world datasets used for anomaly detection in the literature. Some of the datasets are converted from imbalanced classification datasets, while the others contain real anomalies.
 
 ## Numerical Datasets
 
