@@ -49,3 +49,21 @@ Detailed introduction of these datasets and some state-of-the-art performance be
 >Pang, G., Cao, L., Chen, L., & Liu, H. (2017). Learning homophily couplings from non-IID data for joint feature selection and noise-resilient outlier detection. In 26th International Joint Conference on Artificial Intelligence, IJCAI 2017 (pp. 2585-2591). International Joint Conferences on Artificial Intelligence.
 
 >Xu, H., Wang, Y., Cheng, L., Wang, Y., & Ma, X. (2018, October). Exploring a high-quality outlying feature value set for noise-resilient outlier detection in categorical data. In Proceedings of the 27th ACM International Conference on Information and Knowledge Management (pp. 17-26).
+
+## Video Datasets
+Two popular weakly supervised video anomaly detection datasets, including ShanghaiTech Campus and UCF-Crime, are added to the [video data](https://github.com/GuansongPang/anomaly-detection-datasets/tree/main/video%20data) folder. The sources are features extracted using I3D backbone rather than raw data. Weakly supervised video anomaly detection assumes the availability of the video-level labels and aims at detecting frame-level anomalies. They can also be re-organized and used for semi-supervised settings that the training data contains normal videos only. More information about the datasets can be found in the following papers.
+```bibtex
+@inproceedings{sultani2018real,
+  title={Real-world anomaly detection in surveillance videos},
+  author={Sultani, Waqas and Chen, Chen and Shah, Mubarak},
+  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},
+  pages={6479--6488},
+  year={2018}
+}
+@inproceedings{tian2021weakly,
+  title={Weakly-supervised Video Anomaly Detection with Robust Temporal Feature Magnitude Learning},
+  author={Tian, Yu and Pang, Guansong and Chen, Yuanhong and Singh, Rajvinder and Verjans, Johan W and Carneiro, Gustavo},
+  booktitle={Proceedings of the IEEE/CVF international conference on computer vision},
+  year={2021}
+}
+```
