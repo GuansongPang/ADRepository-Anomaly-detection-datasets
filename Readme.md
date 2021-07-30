@@ -16,8 +16,16 @@ backdoor| 95,329| 196
 campaign| 41,188| 62
 thyroid| 7,200 |21
 
-Detailed introduction of these datasets and some performance benchmarks can be found in the DevNet paper
->Pang, G., Shen, C., & van den Hengel, A. (2019, July). Deep anomaly detection with deviation networks. In Proceedings of the 25th ACM SIGKDD International Conference on Knowledge Discovery & Data Mining (pp. 353-362).
+Detailed introduction of these datasets and some performance benchmarks can be found in the DevNet paper. Source code of DevNet is available at [here](https://github.com/GuansongPang/deviation-network). 
+```bibtex
+@inproceedings{pang2019deep,
+  title={Deep anomaly detection with deviation networks},
+  author={Pang, Guansong and Shen, Chunhua and van den Hengel, Anton},
+  booktitle={Proceedings of the 25th ACM SIGKDD international conference on knowledge discovery \& data mining},
+  pages={353--362},
+  year={2019}
+}
+```
 
 ## Categorical Datasets
 
@@ -41,14 +49,29 @@ R10 | 12,897  | 100| corn
 CoverType | 581,012  | 44 | cottonwood 
 
 Detailed introduction of these datasets and some state-of-the-art performance benchmark can be found in the following papers:
-
->Pang, G., Cao, L., & Chen, L. (2016, January). Outlier detection in complex categorical data by modelling the feature value couplings. In IJCAI International Joint Conference on Artificial Intelligence.
-
->Pang, G., Cao, L., Chen, L., & Liu, H. (2016, December). Unsupervised feature selection for outlier detection by modelling hierarchical value-feature couplings. In 2016 IEEE 16th International Conference on Data Mining (ICDM) (pp. 410-419). IEEE.
-
->Pang, G., Cao, L., Chen, L., & Liu, H. (2017). Learning homophily couplings from non-IID data for joint feature selection and noise-resilient outlier detection. In 26th International Joint Conference on Artificial Intelligence, IJCAI 2017 (pp. 2585-2591). International Joint Conferences on Artificial Intelligence.
-
->Xu, H., Wang, Y., Cheng, L., Wang, Y., & Ma, X. (2018, October). Exploring a high-quality outlying feature value set for noise-resilient outlier detection in categorical data. In Proceedings of the 27th ACM International Conference on Information and Knowledge Management (pp. 17-26).
+```bibtex
+@inproceedings{pang2016outlier,
+  title={Outlier detection in complex categorical data by modelling the feature value couplings},
+  author={Pang, Guansong and Cao, Longbing and Chen, Ling},
+  booktitle={IJCAI International Joint Conference on Artificial Intelligence},
+  year={2016}
+}
+@inproceedings{xu2018exploring,
+  title={Exploring a high-quality outlying feature value set for noise-resilient outlier detection in categorical data},
+  author={Xu, Hongzuo and Wang, Yongjun and Cheng, Li and Wang, Yijie and Ma, Xingkong},
+  booktitle={Proceedings of the 27th ACM International Conference on Information and Knowledge Management},
+  pages={17--26},
+  year={2018}
+}
+@article{pang2021homophily,
+  title={Homophily outlier detection in non-IID categorical data},
+  author={Pang, Guansong and Cao, Longbing and Chen, Ling},
+  journal={Data Mining and Knowledge Discovery},
+  pages={1--62},
+  year={2021},
+  publisher={Springer}
+}
+```
 
 ## Video Datasets
 Two popular weakly supervised video anomaly detection datasets, including ShanghaiTech Campus and UCF-Crime, are added to the [video data](https://github.com/GuansongPang/anomaly-detection-datasets/tree/main/video%20data) folder. The sources are features extracted using I3D backbone rather than raw data. Weakly supervised video anomaly detection assumes the availability of the video-level labels and aims at detecting frame-level anomalies. They can also be re-organized and used for semi-supervised settings that the training data contains normal videos only. More information about the datasets can be found in the following papers.
