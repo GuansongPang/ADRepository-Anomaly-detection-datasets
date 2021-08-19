@@ -90,3 +90,15 @@ Two popular weakly supervised video anomaly detection datasets, including Shangh
   year={2021}
 }
 ```
+
+# Image Datasets
+We add 9 publicly available image datasets with real anomalies from diverse application domains, including defect detection, novelty detection in rover-based planetary exploration, and lesion detection in medical images. See [image data](https://github.com/GuansongPang/anomaly-detection-datasets/tree/main/image%20data) for more details. These datasets are used to evaluate a wide range of detection models in different settings in the following paper:
+```bibtex
+@article{pang2021explainable,
+  title={Explainable Deep Few-shot Anomaly Detection with Deviation Networks},
+  author={Pang, Guansong and Ding, Choubo and Shen, Chunhua and Hengel, Anton van den},
+  journal={arXiv preprint arXiv:2108.00462},
+  year={2021}
+}
+```
+
