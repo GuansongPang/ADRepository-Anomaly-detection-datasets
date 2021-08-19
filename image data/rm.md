@@ -19,7 +19,7 @@ Three medical imaging benchmarks for detecting lesions on colonoscopy/MRI/CT ima
 - [BrainMRI](https://tinyurl.com/brainMRI-tumor)
 - [HeadCT](https://tinyurl.com/headCT-tumor)
 
-**The original sources of these datasets can be found by clicking the dataset name. A preproceesed version of each of these datasets can be found at [this Github respository](https://github.com/Choubo/deviation-network-image), and more details about these preprocessed versions can be found in the following paper:**
+**The original sources of these datasets can be found by clicking the dataset name. A preproceesed version of each of these datasets can be found at [this Github repository](https://github.com/Choubo/deviation-network-image), and more details about these preprocessed versions can be found in the following paper:**
 ```bibtex
 @article{pang2021explainable,
   title={Explainable Deep Few-shot Anomaly Detection with Deviation Networks},
