@@ -1,5 +1,5 @@
 # Image datasets
-Below are the links to access 9 publicly available image datasets with real anomalies from diverse application domains are used. 
+Below are the links to access 9 publicly available image datasets with real anomalies from diverse application domains. 
 
 ## Defect detection datasets
 These include five benchmarks for identifying visual defects or micro-cracks on different object surfaces: 
