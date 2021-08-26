@@ -1,4 +1,4 @@
-# Anomaly Detection Datasets
+# ADRepository: Real-world anomaly detection datasets
 
 In this repository, we provide a continuously updated collection of popular real-world datasets used for anomaly detection in the literature. Some of the datasets are converted from imbalanced classification datasets, while the others contain real anomalies.
 
