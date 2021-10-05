@@ -2,6 +2,20 @@
 
 In this repository, we provide a continuously updated collection of popular real-world datasets used for anomaly detection in the literature. Some of the datasets are converted from imbalanced classification datasets, while the others contain real anomalies.
 
+This repository is created to serve as an extension to the datasets presented in our recent survey paper on deep anomaly detection. If you use the datasets below, you may cite the survey paper or the specific papers in the following sections to acknowledge the use. 
+```bibtex
+@article{pang2021deep,
+  title={Deep learning for anomaly detection: A review},
+  author={Pang, Guansong and Shen, Chunhua and Cao, Longbing and Hengel, Anton Van Den},
+  journal={ACM Computing Surveys (CSUR)},
+  volume={54},
+  number={2},
+  pages={1--38},
+  year={2021},
+  publisher={ACM New York, NY, USA}
+}
+```
+
 ## Numerical Datasets
 
 Seven datasets from the KDD19 paper - DevNet - are available at the [DevNet_datasets](https://github.com/GuansongPang/anomaly-detection-datasets/tree/main/numerical%20data/DevNet%20datasets) folder in this repository. The basic statistics of these datasets are shown below.
