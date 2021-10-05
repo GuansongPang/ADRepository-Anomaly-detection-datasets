@@ -16,6 +16,8 @@ This repository is created to serve as an extension to the datasets presented in
 }
 ```
 
+**A continuously updated repository for SOTA deep anomaly detection implementation is made publicly available at https://github.com/GuansongPang/SOTA-Deep-Anomaly-Detection**
+
 ## Numerical Datasets
 
 Seven datasets from the KDD19 paper - DevNet - are available at the [DevNet_datasets](https://github.com/GuansongPang/anomaly-detection-datasets/tree/main/numerical%20data/DevNet%20datasets) folder in this repository. The basic statistics of these datasets are shown below.
