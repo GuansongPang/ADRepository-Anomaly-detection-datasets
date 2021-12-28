@@ -107,7 +107,7 @@ Two popular weakly supervised video anomaly detection datasets, including Shangh
 }
 ```
 
-# Image Datasets
+## Image Datasets
 We add 9 publicly available image datasets with real anomalies from diverse application domains, including defect detection, novelty detection in rover-based planetary exploration, and lesion detection in medical images. See [image data](https://github.com/GuansongPang/anomaly-detection-datasets/tree/main/image%20data) for more details. These datasets are used to evaluate a wide range of detection models in different settings in the following paper:
 ```bibtex
 @article{pang2021explainable,
@@ -115,6 +115,38 @@ We add 9 publicly available image datasets with real anomalies from diverse appl
   author={Pang, Guansong and Ding, Choubo and Shen, Chunhua and Hengel, Anton van den},
   journal={arXiv preprint arXiv:2108.00462},
   year={2021}
+}
+```
+
+## Graph Datasets
+16 real-world datasets for graph-level anomaly detection are added. Basic statistics of these datasets are as follows. See [graph data](https://github.com/GuansongPang/ADRepository-Anomaly-detection-datasets/tree/main/graph%20data) for more details.
+
+Dataset| #Graphs|#Avg. Nodes|#Avg. Edges
+------------ |------------ | ------------- |------------ 
+PROTEINS_full|1,113|39.06|72.82
+ENZYMES|600|32.63|62.14
+AIDS|2,000|15.69|16.2
+DHFR|467|42.43|44.54
+BZR|405|35.75|38.36
+COX2|467|41.22|43.45
+DD|1,178|284.32|715.66
+NCI1|4,110|29.87|32.3
+IMDB|1,000|19.77|96.53
+REDDIT|2,000|429.63|497.75
+HSE|8,417|16.89|17.23
+MMP|7,558|17.62|17.98
+p53|8,903|17.92|18.34
+PPAR-gamma|8,451|17.38|17.72
+COLLAB|5,000|74.49|2,457.78
+hERG|655|26.48|28.79
+
+The datasets were used and made available by the authors of the following paper.
+```bibtex
+@inproceedings{ma2022deep,
+  title={Deep Graph-level Anomaly Detection by Glocal Knowledge Distillation},
+  author={Ma, Rongrong and Pang, Guansong and Chen, Ling and van den Hengel, Anton},
+  booktitle={The Fifteenth ACM International Conference on Web Search and Data Mining},
+  year={2022}
 }
 ```
 
