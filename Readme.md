@@ -72,6 +72,7 @@ Detailed introduction of these datasets and some state-of-the-art performance be
   booktitle={IJCAI International Joint Conference on Artificial Intelligence},
   year={2016}
 }
+
 @inproceedings{xu2018exploring,
   title={Exploring a high-quality outlying feature value set for noise-resilient outlier detection in categorical data},
   author={Xu, Hongzuo and Wang, Yongjun and Cheng, Li and Wang, Yijie and Ma, Xingkong},
@@ -79,6 +80,7 @@ Detailed introduction of these datasets and some state-of-the-art performance be
   pages={17--26},
   year={2018}
 }
+
 @article{pang2021homophily,
   title={Homophily outlier detection in non-IID categorical data},
   author={Pang, Guansong and Cao, Longbing and Chen, Ling},
@@ -99,6 +101,7 @@ Two popular weakly supervised video anomaly detection datasets, including Shangh
   pages={6479--6488},
   year={2018}
 }
+
 @inproceedings{tian2021weakly,
   title={Weakly-supervised Video Anomaly Detection with Robust Temporal Feature Magnitude Learning},
   author={Tian, Yu and Pang, Guansong and Chen, Yuanhong and Singh, Rajvinder and Verjans, Johan W and Carneiro, Gustavo},
