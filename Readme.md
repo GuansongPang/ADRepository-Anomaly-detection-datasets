@@ -108,12 +108,34 @@ Two popular weakly supervised video anomaly detection datasets, including Shangh
 ```
 
 ## Image Datasets
-We add 9 publicly available image datasets with real anomalies from diverse application domains, including defect detection, novelty detection in rover-based planetary exploration, and lesion detection in medical images. See [image data](https://github.com/GuansongPang/anomaly-detection-datasets/tree/main/image%20data) for more details. These datasets are used to evaluate a wide range of detection models in different settings in the following paper:
+We add 14 publicly available image datasets with real anomalies from diverse application domains, including **defect detection**, **novelty detection** in rover-based planetary exploration, **lesion detection** in medical images, and **anomaly segmentation** in autonomous driving scenes. See [image data](https://github.com/GuansongPang/anomaly-detection-datasets/tree/main/image%20data) for more details. These datasets are used to evaluate a wide range of detection models in different settings (e.g., **open-set anomaly detection** and **out-of-distribution semantic segmentation**) in the following paper:
 ```bibtex
 @article{pang2021explainable,
   title={Explainable Deep Few-shot Anomaly Detection with Deviation Networks},
   author={Pang, Guansong and Ding, Choubo and Shen, Chunhua and Hengel, Anton van den},
   journal={arXiv preprint arXiv:2108.00462},
+  year={2021}
+}
+
+@inproceedings{ding2022catching,
+  title={Catching Both Gray and Black Swans: Open-set Supervised Anomaly Detection},
+  author={Ding, Choubo and Pang, Guansong and Shen, Chunhua},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={7388--7398},
+  year={2022}
+}
+
+@article{tian2021pixel,
+  title={Pixel-wise Energy-biased Abstention Learning for Anomaly Segmentation on Complex Urban Driving Scenes},
+  author={Tian, Yu and Liu, Yuyuan and Pang, Guansong and Liu, Fengbei and Chen, Yuanhong and Carneiro, Gustavo},
+  journal={arXiv preprint arXiv:2111.12264},
+  year={2021}
+}
+
+@article{chan2021segmentmeifyoucan,
+  title={Segmentmeifyoucan: A benchmark for anomaly segmentation},
+  author={Chan, Robin and Lis, Krzysztof and Uhlemeyer, Svenja and Blum, Hermann and Honari, Sina and Siegwart, Roland and Salzmann, Mathieu and Fua, Pascal and Rottmann, Matthias},
+  journal={arXiv preprint arXiv:2104.14812},
   year={2021}
 }
 ```
