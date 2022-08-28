@@ -28,3 +28,27 @@ Three medical imaging benchmarks for detecting lesions on colonoscopy/MRI/CT ima
   year={2021}
 }
 ```
+
+## Out-of-distribution/anomaly semantic segmentation 
+There have been a few commonly used datasets for anomaly/out-of-distribution segmentation in autonomous urban driving scenes:
+- [Fishyscapes](https://paperswithcode.com/sota/anomaly-detection-on-fishyscapes-1?p=pixel-wise-energy-biased-abstention-learning)
+- [Lost and Found](https://paperswithcode.com/sota/anomaly-detection-on-lost-and-found?p=pixel-wise-energy-biased-abstention-learning)
+- [Road Anomaly](https://paperswithcode.com/sota/anomaly-detection-on-road-anomaly?p=pixel-wise-energy-biased-abstention-learning)
+- [Fishyscapes L&F](https://paperswithcode.com/sota/anomaly-detection-on-fishyscapes-l-f?p=pixel-wise-energy-biased-abstention-learning)
+- [Segment Me If You Can](https://segmentmeifyoucan.com/)
+
+```bibtex
+@article{tian2021pixel,
+  title={Pixel-wise Energy-biased Abstention Learning for Anomaly Segmentation on Complex Urban Driving Scenes},
+  author={Tian, Yu and Liu, Yuyuan and Pang, Guansong and Liu, Fengbei and Chen, Yuanhong and Carneiro, Gustavo},
+  journal={arXiv preprint arXiv:2111.12264},
+  year={2021}
+}
+
+@article{chan2021segmentmeifyoucan,
+  title={Segmentmeifyoucan: A benchmark for anomaly segmentation},
+  author={Chan, Robin and Lis, Krzysztof and Uhlemeyer, Svenja and Blum, Hermann and Honari, Sina and Siegwart, Roland and Salzmann, Mathieu and Fua, Pascal and Rottmann, Matthias},
+  journal={arXiv preprint arXiv:2104.14812},
+  year={2021}
+}
+```
