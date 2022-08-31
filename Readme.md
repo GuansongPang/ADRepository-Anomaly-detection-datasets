@@ -195,7 +195,7 @@ These datasets are from the paper below; check the paper for more detail.
 }
 ```
 
-There are some concerns on the use of these popular datasets. Check out the below paper for more detail.
+There are some concerns on the use of these popular datasets. Check out the below paper for more detail and the recommended datasets therein at [here](https://compete.hexagon-ml.com/practice/competition/39/).
 ```bibtex
 @article{wu2021current,
   title={Current time series anomaly detection benchmarks are flawed and are creating the illusion of progress},
