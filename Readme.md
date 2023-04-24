@@ -175,6 +175,36 @@ The datasets were used and made available by the authors of the following paper.
 }
 ```
 
+4 real-world graph datasets for node-level anomaly detection are added. Basic statistics of these datasets are as follows. See [graph data](https://github.com/GuansongPang/ADRepository-Anomaly-detection-datasets/tree/main/graph%20data) for more detail.
+
+Dataset| #Dim. | #Nodess|#Avg. Degree|#Anomalies|#Ratio
+------------ |------------ | ------------- |------------ | ------------- |------------ 
+YelpRes|8,000|5,012|41.79|250|0.0499
+YelpHotel|8,000|4,322|23.55|250|0.0578
+YelpNYC|10,000|21,040|78.81|1,000|0.0475
+Amazon|10,000|18,601|28.30|726|0.0390
+
+The datasets were used and made available by the authors of the following paper.
+```bibtex
+@article{ding2021cross,
+  title={Cross-domain graph anomaly detection},
+  author={Ding, Kaize and Shu, Kai and Shan, Xuan and Li, Jundong and Liu, Huan},
+  journal={IEEE Transactions on Neural Networks and Learning Systems},
+  volume={33},
+  number={6},
+  pages={2406--2415},
+  year={2021},
+  publisher={IEEE}
+}
+
+@inproceedings{wang2023cross,
+  title={Cross-Domain Graph Anomaly Detection via Anomaly-aware Contrastive Alignment},
+  author={Wang, Qizhou and Pang, Guansong and Salehi, Mahsa and Buntine, Wray and Leckie, Christopher},
+  booktitle={AAAI},
+  year={2023}
+}
+```
+
 ## Time Series Datasets
 
 Anomaly detection on time series data is one of the most active research directions in the anomaly detection community. Some commonly-used datasets are as follows:  
