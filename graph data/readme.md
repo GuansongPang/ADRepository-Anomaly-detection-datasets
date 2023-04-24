@@ -23,3 +23,15 @@ p53|8,903|17.92|18.34
 PPAR-gamma|8,451|17.38|17.72
 COLLAB|5,000|74.49|2,457.78
 hERG|655|26.48|28.79
+
+## Node-level anomaly detection
+
+Below are four real-world graph datasets for node-level anomaly detection. Basic statistics of these datasets are as follows. They are used in cross-domain graph anomaly detection and released at https://github.com/QZ-WANG/ACT.
+
+Dataset| #Dim. | #Nodess|#Avg. Degree|#Anomalies|#Ratio
+------------ |------------ | ------------- |------------ | ------------- |------------ 
+YelpRes|8,000|5,012|41.79|250|0.0499
+YelpHotel|8,000|4,322|23.55|250|0.0578
+YelpNYC|10,000|21,040|78.81|1,000|0.0475
+Amazon|10,000|18,601|28.30|726|0.0390
+
